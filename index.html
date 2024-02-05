@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>NomadCoder</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1></h1>
+        <h2></h2>
+
+        <form id="logIn">
+            <input required maxlength="15" type="text" name="userName" placeholder="What is your name?" id="log-in">
+            <button type="submit" value="log-in">Log In</button>
+        </form>
+        <span class="username"></span>
+
+        <form type="text" id="todoForm">
+            <input type="text" placeholder="Write a To Do and Press Enter" id="todo">
+        </form>
+        <ul id="todoList"></ul>
+        <div id="weather">
+            <span></span>
+        </div>
+    </div>
+    <script src="./clock.js"></script>
+    <script src="./background.js"></script>
+    <script src="./date.js"></script>
+    <script src="./login.js"></script>
+    <script src="./todo.js"></script>
+    <script src="./weather.js"></script>
+</body>
+</html>
